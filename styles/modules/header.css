@@ -1,0 +1,14 @@
+.header {
+  padding: 1rem 8rem;
+  overflow: hidden;
+  background-color: #1f2432;
+}
+
+.header-logo {
+  float: left;
+  height: 2.5em;
+}
+
+.header a {
+  color: #babcc1;
+}
