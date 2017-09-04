@@ -14,4 +14,5 @@ button.sign-up {
 button.sign-up-body {
   padding: 0.5em 0;
   width: calc(25% - 10px);
+  vertical-align: bottom;
 }
