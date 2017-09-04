@@ -29,3 +29,20 @@
   margin-left: 10px;
   width: calc(50% - 20px);
 }
+
+.features {
+  margin: 4em 0;
+  background-color: #fff;
+}
+
+section {
+  float: left;
+  margin-right: 20px;
+  width: calc(33% - 40px);
+  border: 1px solid grey;
+  background-color: pink;
+}
+
+section.right-box {
+  margin-right: 0;
+}
