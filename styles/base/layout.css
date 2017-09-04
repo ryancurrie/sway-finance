@@ -5,6 +5,20 @@ body {
 }
 
 .container {
-  width: 900px;
+  box-sizing: border-box;
   margin: 0 auto;
+}
+
+.cta-section {
+  padding: 8rem;
+  overflow: hidden;
+  background-color: #1f2432;
+}
+
+.email-capture {
+  width: 33%;
+}
+
+.video-display {
+  width: 33%;
 }
