@@ -9,21 +9,39 @@
     <link rel="stylesheet" href="styles/source-sans-pro.css">
     <link rel="stylesheet" href="styles/modules/header.css">
     <link rel="stylesheet" href="styles/components/nav.css">
+    <link rel="stylesheet" href="styles/components/imagery.css">
     <link rel="stylesheet" href="styles/components/buttons.css">
+    <link rel="stylesheet" href="styles/components/forms.css">
     <title>Sway Finance</title>
   </head>
   <body>
     <div class="header">
-      <img class="header-logo" src="images/swaylogo2.png" alt="sway finance" />
-      <nav>
-        <ul>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Security</a></li>
-          <li><button class="sign-up">Sign Up</button></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <img class="header-logo" src="images/swaylogo2.png" alt="sway finance" />
+        <nav>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Security</a></li>
+            <li><button class="sign-up">Sign Up</button></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <div class="container">
+    <div class="cta-section">
+      <div class="container">
+        <div id="email-capture">
+            <h1>Your company's<br> accounting, automated</h1>
+            <p class="sub-text">Let Sway handle your books so you can get back to running your business.</p>
+            <form action="#">
+              <input type="email" name="Email Address" placeholder="Email Address" />
+              <button class="sign-up-body">Sign Up</button>
+            </form>
+        </div>
+        <div id="video-display">
+          <img id="sway-video" src="images/Video-1_1.jpg" />
+          <img id="play-icon" src="images/Play-Icon.png" />
+        </div>
     </div>
+  </div>
   </body>
 </html>

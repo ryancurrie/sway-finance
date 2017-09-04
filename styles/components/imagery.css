@@ -1,0 +1,10 @@
+#sway-video {
+  width: 430px;
+}
+
+#play-icon {
+  position: absolute;
+  top: calc(50% - 37.5px);
+  left: calc(50% - 37.5px);
+  width: 75px;
+}

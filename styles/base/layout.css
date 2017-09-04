@@ -1,10 +1,31 @@
-body {
+* {
   box-sizing: border-box;
   margin: 0;
-  background-color: #edeeed;
 }
 
 .container {
+  box-sizing: border-box;
   width: 900px;
   margin: 0 auto;
+  overflow: hidden;
+}
+
+.cta-section {
+  padding: 8em 0;
+  overflow: hidden;
+  background-color: #1f2432;
+}
+
+#email-capture {
+  float: left;
+  margin-right: 10px;
+  padding-top: 2.5em;
+  width: calc(50% - 20px);
+}
+
+#video-display {
+  position: relative;
+  float: right;
+  margin-left: 10px;
+  width: calc(50% - 20px);
 }

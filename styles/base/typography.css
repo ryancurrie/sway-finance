@@ -1,3 +1,17 @@
 * {
   font-family: 'Source Sans Pro', Arial, san-serif;
 }
+
+h1 {
+  font-family: 'Titillium Web', Arial, sans-serif;
+  line-height: 1.1em;
+  font-size: 2.2em;
+  font-weight: 400;
+  color: #fff;
+}
+
+.sub-text {
+  margin-top: 1.5em;
+  font-size: 1.2em;
+  color: #babcc1;
+}
