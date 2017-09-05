@@ -25,6 +25,7 @@ h2 {
 .feature-description {
   margin-top: 10px;
   font-size: 1em;
+  font-weight: 300;
   line-height: 1.5em;
   color: #a2a6ae;
 }
