@@ -29,3 +29,12 @@ h2 {
   line-height: 1.5em;
   color: #a2a6ae;
 }
+
+#slack-content p {
+  margin: 20px 0;
+  font-size: 1.4em;
+}
+
+#slack-content h2 {
+  font-size: 1.6em;
+}
