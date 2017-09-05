@@ -10,8 +10,21 @@ h1 {
   color: #fff;
 }
 
+h2 {
+  font-family: 'Titillium Web', Arial, sans-serif;
+  font-size: 1.1em;
+  color: black;
+}
+
 .sub-text {
   margin-top: 1.5em;
   font-size: 1.2em;
   color: #babcc1;
+}
+
+.feature-description {
+  margin-top: 10px;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #a2a6ae;
 }
