@@ -5,7 +5,7 @@
 
 .container {
   box-sizing: border-box;
-  width: 900px;
+  width: 1000px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -20,12 +20,31 @@
   float: left;
   margin-right: 10px;
   padding-top: 2.5em;
-  width: calc(50% - 20px);
+  width: calc(50% - 2%);
 }
 
 #video-display {
   position: relative;
   float: right;
   margin-left: 10px;
-  width: calc(50% - 20px);
+  width: calc(50% - 2%);
+}
+
+.features {
+  margin: 4em 0;
+  background-color: #fff;
+}
+
+section {
+  float: left;
+  padding: 2em;
+  margin: 10px 0;
+  width: calc(33.33% - 1.6%);
+  height: 100%;
+  border: 1px solid #e7e8eb;
+  box-shadow: 5px 5px 10px #e7e8eb;
+}
+
+section.middle-column {
+  margin: 10px 20px;
 }
